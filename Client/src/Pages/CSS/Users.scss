@@ -1,0 +1,85 @@
+#users {
+  height: 91.99vh;
+  flex-basis: 50%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #dad8d8cf;
+  flex-wrap: wrap;
+  position: relative;
+  inset: 0;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .Display-matchUser {
+    display: none;
+  }
+
+  ol {
+    width: auto;
+    height: max-content;
+    background-color: rgb(243, 241, 241);
+    border: 1px solid rgb(239, 237, 237);
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    inset: 0 50px 0 0;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    .characteristic {
+      width: auto;
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      user-select: none;
+      margin: 0 0 0 3px;
+
+      li {
+        width: auto;
+        height: auto;
+        position: relative;
+        inset: 0 50px 0 0;
+        padding: 3px;
+      }
+    }
+
+    .badg-group {
+      width: max-content;
+      height: auto;
+      display: flex;
+      justify-content: right;
+      align-items: flex-start;
+      line-height: 20px;
+      background-color: transparent;
+      border: 2px solid rgb(223, 220, 220);
+      border-radius: 5px;
+      padding: 3px;
+      position: relative;
+      inset: 0;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      li:first-child {
+        margin: 0 0 0 8px;
+      }
+
+      li:last-child {
+        width: max-content;
+        height: fit-content;
+        margin: 0 0 0 13px;
+        background-color: rgb(190, 146, 231);
+        border-radius: 50%;
+        padding: 1% 2.8%;
+        color: #48026a;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: default;
+        box-sizing: border-box;
+        user-select: none;
+      }
+    }
+  }
+}

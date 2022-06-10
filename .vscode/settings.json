@@ -1,0 +1,9 @@
+{
+    "git.autofetch": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "git.autoRepositoryDetection": true,
+    "html-to-css-autocompletion.autocompletionFilesScope": "workspace",
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "npm.autoDetect": "off",
+    "yarn.enableTouchbar": true
+}
